@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloController.class, args);
+		SpringApplication.run(HelloController.class, args)
 	}
 
 	@GetMapping("/")
 	public String homeWeb() {
-		return "Olá, Mundo divertido do SCM ADS Osório!";
+		return "Olá, Mundo divertido do SCM ADS Osório!"
 	}
 }
